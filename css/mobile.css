@@ -1,0 +1,265 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: auto
+}
+.logo-img {
+    width: 60px;
+    height: 40px;
+    justify-content: center; 
+    align-items: center;
+}
+header {
+  width: 100%;
+  background-color: #263248;
+    padding: 6px 5;
+}
+
+.search-box {
+    display: flex;
+    margin-left: auto; /* pushes search to far right */
+    height: 50px;
+}
+.search-box-button {
+  padding: 5px 5px;
+  background: #0641b9;
+  cursor: pointer;
+  color: #fff;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+}
+
+nav ul li a {
+  display: inline ;
+  width: 85%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+}
+nav ul li a:hover {
+    color: #fad609;
+    
+}
+.read-more-btn {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #0641b9;
+    color: #fff;
+}
+/* main content on home page */
+
+.welcome-section {
+  background-image: url('../images/CollegeBg.jpg');
+  background-size: cover;
+  margin-left: 6px;
+  width: 90%;
+  display: flex;
+  height: 200px;
+  
+}
+.welcome-content {
+    padding: 10px;
+    margin-left: 5px;
+
+}
+.welcome-content h1 {
+  font-size: 22px;
+  color: #fff;
+}
+.welcome-content p {
+  
+  color: #fff;
+  text-align: justify;
+  padding: 8px;
+  
+}
+.info-sections {
+    padding: 5px; 
+}
+.info-box {
+  
+    align-items: center;  
+  }
+  
+
+.info-box img {
+  width: 500px;
+  max-width:100%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  
+}
+.info-text h2 {
+  text-align: center;
+  font-size: 20px;
+}
+.info-text p {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.read-more-btn {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #0641b9;
+    color: #fff;
+}
+/* about-us page section */
+.about-us {
+    margin-top: auto;
+    background-color:rgb(154, 181, 236);
+    margin-top: -15px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.about-us h2 {
+    align-items: center;
+    font-size: 22px;
+    font-style: italic;
+    justify-items: center;
+}
+.about-us p {
+    margin-left: 6px;
+    width: 460px;
+    font-size: 14px;
+    padding: 0 10px 0;
+    text-align: justify;
+}
+.services {
+    max-width: 500px;
+    margin-left: 6px;
+    padding: 6px;  
+}
+ .services h2 {
+    margin-bottom: 8px;
+    font-style: italic;
+    text-align: center;
+    
+ }
+
+ 
+.info-servises{
+    display: flex;
+    padding: 6px; 
+}
+section.course {
+    background-color: indigo;
+    font-size: 14px;
+    color: white;
+    text-align:justify;
+    margin-top: 1px;
+    padding: 6px 0;
+}
+section p{
+    margin: 0 20px;
+    line-height: 1.4;
+
+
+}
+.info-boxes{
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.info-boxes img {
+    width: 100%;
+    max-width: 480px;
+    padding: 6px;
+    height: auto; 
+    margin-left: 6px;  
+}
+.info-boxes .info-text {
+   text-align: center;
+}
+.info-text h2 {
+  margin-left: 10px;
+  
+}
+.info-boxes .info-text p {
+    max-width: auto;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 14px;
+    text-align: justify;
+    padding: 6px;
+}
+.services .intro {
+    margin-bottom: 10px;
+    line-height: 1.2;
+ }
+  .accordion-header {
+    width: 500px;
+    text-align:left;
+    gap: 40px;
+     margin-left: 6px;
+     padding: 10px;
+     font-size: 14px;
+     font-weight: bold;
+     background-color: rgb(21, 21, 98);
+     color: #fff;
+     border: none;
+     border-bottom: 2px solid #addd;
+     cursor: pointer;
+  }
+  .accordion-header:hover {
+    background-color: #bfbcbc;
+    color: #000;
+  }
+  .accordion-content {
+    display: none;
+    padding: 16px;
+    background: #fff;
+    border-bottom: 1px solid #addd;
+  }
+ .accordion-content p {
+    margin: 0;
+    line-height: 1.6;
+ }
+ 
+ .get-in-touch {
+    
+    
+    line-height: normal;
+    border: 1px solid #3e3d49; 
+    background-color: #293c63;
+    color: #fff;
+ }
+ .cantor-partner {
+   
+    border: 2px solid #ccc;
+    
+ }
+ .cantor-partner h3 {
+    font-size: 16px;
+    line-height: 0.6;
+ } 
+
+@media (max-width: 600px) {
+  .social-icons {
+    gap: 10px;
+  }
+}
+
+.site-footer {
+  border-top: 1px solid #ccc;
+  margin: 20px 10px 10px 0;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
